@@ -45,7 +45,8 @@ function abort($code = 404)
 function login($user)
 {
     $_SESSION['user'] = [
-        'email' => $user['email']
+        'email' => $user['email'],
+        'name' => $user['name']
     ];
 
     session_regenerate_id(true);
