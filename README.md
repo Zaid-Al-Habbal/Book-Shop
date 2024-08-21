@@ -1,2 +1,2 @@
 # Book-Shop
-A website to buy and browser books
+A website to buy and browse books using php language
